@@ -20,6 +20,7 @@ namespace HomeWork2
         {
             return !string.IsNullOrWhiteSpace(inputString); 
             //checking if user uses optional parametr values
+
         }
 
         static void Main(string[] args)
