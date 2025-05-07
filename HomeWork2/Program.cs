@@ -19,8 +19,7 @@ namespace HomeWork2
         static bool Nullcheck(string inputString)
         {
             return !string.IsNullOrWhiteSpace(inputString); 
-            //checking if user uses optional parametr values
-
+            //checking if user uses optional parameter values
         }
 
         static void Main(string[] args)
@@ -33,6 +32,7 @@ namespace HomeWork2
             if (Nullcheck(priceInput) && double.TryParse(priceInput, out itemPrice))
             {
                 // OK
+                //test
             }
             else
             {
